@@ -28,7 +28,7 @@
             display-name = "Base";
             bindings = <
 &kp EQUAL  &kp N1     &kp N2    &kp N3    &kp N4     &kp N5  &tog 1                                                   &mo 3      &kp N6  &kp N7  &kp N8     &kp N9    &kp N0    &kp MINUS
-&kp TAB    &kp Q      &kp W     &kp E     &kp R      &kp T   &none                                                    &none      &kp Y   &kp U   &kp I      &kp O     &kp P     &kp BSLH
+&kp TAB    &kp Q      &kp W     &kp E     &kp R      &kp T   &to 1                                                    &none      &kp Y   &kp U   &kp I      &kp O     &kp P     &kp BSLH
 &kp ESC    &kp A      &kp S     &kp D     &kp F      &kp G   &none     &kp LCTRL  &kp LALT      &kp LGUI   &kp RCTRL  &none      &kp H   &kp J   &kp K      &kp L     &kp SEMI  &kp SQT
 &kp LSHFT  &kp Z      &kp X     &kp C     &kp V      &kp B                        &kp HOME      &kp PG_UP                        &kp N   &kp M   &kp COMMA  &kp DOT   &kp FSLH  &kp RSHFT
 &mo 2      &kp GRAVE  &kp CAPS  &kp LEFT  &kp RIGHT          &kp BSPC  &kp DEL    &kp END       &kp PG_DN  &kp ENTER  &kp SPACE          &kp UP  &kp DOWN   &kp LBKT  &kp RBKT  &mo 2
@@ -38,7 +38,7 @@
         Graphite {
             bindings = <
 &trans  &trans  &trans  &trans  &trans  &trans  &trans                                      &trans  &trans   &trans  &trans  &trans  &trans  &trans
-&trans  &kp B   &kp L   &kp D   &kp W   &kp Z   &trans                                      &trans  &kp SQT  &kp F   &kp O   &kp U   &kp J   &trans
+&trans  &kp B   &kp L   &kp D   &kp W   &kp Z   &to 0                                       &trans  &kp SQT  &kp F   &kp O   &kp U   &kp J   &trans
 &trans  &kp N   &kp R   &kp T   &kp S   &kp G   &trans  &trans  &trans      &trans  &trans  &trans  &kp Y    &kp H   &kp A   &kp E   &kp I   &kp SEMI
 &trans  &kp Q   &kp X   &kp M   &kp C   &kp V                   &trans      &trans                  &kp K    &kp P   &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans          &trans  &trans  &trans      &trans  &trans  &trans           &trans  &trans  &trans  &trans  &trans
